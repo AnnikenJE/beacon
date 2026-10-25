@@ -2,6 +2,13 @@
 
 A native iOS app for finding restaurants, cafés and hotels around you using the [Geoapify Places API](https://apidocs.geoapify.com/docs/places/), rating the places you visit, and keeping those ratings locally with SwiftData. Built with Swift and SwiftUI following an MVVM architecture. The app UI is in Norwegian.
 
+## Background
+
+Originally built as the exam project for **iOS Programming (15 ECTS)**, Kristiania University College, graded **B**.
+
+All code is handwritten.
+AI is only used to help write the README and commit messages.
+
 ## Features
 
 - **Explore:** nearby places on an interactive map with custom pins, or in a list view, toggled with one button
@@ -65,9 +72,4 @@ Add `Beacon/APIKey.swift` to the Beacon target in Xcode so it gets compiled.
 
 Open `Beacon.xcodeproj` in Xcode and run on a simulator or device. The app asks for "when in use" location access the first time you use the GPS button.
 
-## Background
 
-Originally built as the exam project for **iOS Programming (15 ECTS)**, Kristiania University College, graded **B**.
-
-All code is handwritten.
-AI is only used to help write the README and commit messages.
